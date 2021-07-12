@@ -1,0 +1,20 @@
+config.*.plist
+OpenCore.*.efi
+Resources/*
+Kexts/*
+ACPI/SSDT-*.aml.bak
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables file
+.env
+
+.fuse*
+
+# Cruft
+.DS_Store
+*.log
